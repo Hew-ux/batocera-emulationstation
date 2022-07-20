@@ -56,6 +56,11 @@ To setup compilation, generate and build the Makefile with CMake:
 cmake .
 ```
 
+If you'd like to compile ES as if though it were being compiled for Batocera, instead run this:
+```bash
+cmake -DBATOCERA=ON .
+```
+
 And then begin compilation:
 ```bash
 make
